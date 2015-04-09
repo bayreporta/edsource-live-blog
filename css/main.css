@@ -1,0 +1,61 @@
+/* MIDDLE COLUMN FEATURE
+===============================================*/
+h1, h2, h3 {font-family: 'roboto Condensed',san-serif}
+p, span, a, div, li {font-family:'Crimson Text', serif;}
+body {margin:0;font-size:100%;overflow-x:hidden;overflow-y:scroll;}
+
+body::-webkit-scrollbar {width: .8em;}
+body::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);}
+body::-webkit-scrollbar-thumb {background-color: #ddd;outline: 1px solid #bbb;}
+
+#blog-contain {margin:0 auto;width:99%;max-width:600px;overflow-x:hidden;overflow-y: scroll}
+#blog-contain img {border:1px solid #ddd;}
+#blog-contain a {color:#39709f;text-decoration:none;}
+#blog-contain a:hover {color:#1e3b54;text-decoration:underline;}
+#blog-contain p {margin:0;color:#333;}
+
+.meta {float:left;width:25%;padding-right:2%;margin-top:22px;}
+.content {float:right;width:73%;}
+
+.date {width:69%;margin-bottom:10px;}
+#blog-contain .author p, #blog-contain .date p {color:#aaa;}
+
+.text {margin-bottom: 25px;}
+.largeimg img {width:100%;height:auto;margin-bottom:30px;}
+.smallimg img {width: 40%; height: auto;  margin: 15px 2%;  float: right;}
+.quote {margin-top: 20px;padding: 30px 0;  border-top: 1px solid #aaa;}
+#blog-contain .quote p {margin-left:10%;color:#aaa;}
+
+.link {border:1px #aaa solid;}
+.link div[type="content"] h4 {padding: 0 2%;line-height:1.5em;}
+.link div[type="content"] p {padding: 0 2% 20px 2%;}
+
+.contain-response {position: relative;padding-bottom: 56.25%;padding-top: 35px;height: 0;overflow: hidden;}
+.iframe-response {position: absolute;top:0;left: 0;width: 100%;height: 100%;}
+
+.twitter-tweet {  padding-left: 5%;  border-left: solid 5px #aaa;}
+.twitter-tweet p {padding-bottom:10px;}
+blockquote.twitter-tweet {  display: inline-block;  font-family: "roboto Condensed", san-serif;  font-size: 12px;  font-weight: bold;  line-height: 16px;  border-color: #eee #ddd #bbb;  border-radius: 5px;  border-style: solid;  border-width: 1px;  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);  margin: 10px 5px 20px 5px;  padding: 15px 5%;  max-width: 420px;}
+blockquote.twitter-tweet p {  font-size: 16px;  font-weight: normal;  line-height: 20px;}
+blockquote.twitter-tweet a {  color: inherit;  font-weight: normal;  text-decoration: none;  outline: 0 none;}
+blockquote.twitter-tweet a:hover,blockquote.twitter-tweet a:focus {  text-decoration: underline;}
+
+.entry {border-bottom:1px solid #ddd;padding:10px 2%;width:96%;background:#fff;overflow-x:hidden;}
+.entry:last-of-type {border:0;}
+
+.entry .fa {color:#aaa;}
+.entry .fa-quote-left {float: left;  font-size: 2em;  padding: 0 2% 20px 0;margin-top:-15px;}
+.entry .fa-quote-right {padding-left:2%;font-size:.7em;}
+
+.entry-source {font-size:.9em;color:#97918f;padding:10px 0 0 0;float:left;}
+.entry-text {font-size:.8em;line-height:1.4em;}
+.entry-link {text-decoration:underline;color:#39709f;}
+.entry-hed {font-size:1em;}
+
+.entry-time {display:inline;font-size:.65em;color:#aaa;clear:both;width:100%;}
+.entry-time p {padding:0 0 5px 0;}
+
+.entry-limg {margin:10px 0;width: 100%;}
+
+.entry-simg {width:30%;max-width:75px;margin:0 2% 10px 2%;float:right;}
+
