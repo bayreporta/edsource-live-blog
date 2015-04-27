@@ -1,0 +1,65 @@
+/* MIDDLE COLUMN FEATURE
+===============================================*/
+#live-blog  {margin:0;max-width:890px;width:99%;font-size:100%;overflow-x:hidden;overflow-y:scroll;}
+#live-blog h1, #live-blog h2, #live-blog h3 {font-family: 'roboto Condensed',san-serif}
+#live-blog p, #live-blog span, #live-blog a, #live-blog div, #live-blog li {font-family:'Crimson Text', serif;}
+
+#blog-refresh {padding:10px 0; border-bottom:2px solid #aaa;border-top:2px solid #aaa;}
+#blog-refresh p, #blog-refresh span {font-family: 'roboto Condensed',san-serif;}
+#blog-refresh p:last-child {color:#aaa;}
+
+#blog-contain ::-webkit-scrollbar {width: .8em;}
+#blog-contain ::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);}
+#blog-contain ::-webkit-scrollbar-thumb {background-color: #ddd;outline: 1px solid #bbb;}
+
+#blog-contain {overflow-x:hidden;overflow-y: scroll}
+#blog-contain img {border:1px solid #ddd;}
+#blog-contain a {color:#39709f;text-decoration:none;}
+#blog-contain a:hover {color:#1e3b54;text-decoration:underline;}
+#blog-contain p {margin:0;color:#333;}
+
+#blog-contain .meta {float:left;width:25%;padding-right:2%;margin-top:22px;}
+#blog-contain .content {float:right;width:73%;}
+
+#blog-contain .date {width:69%;margin-bottom:10px;}
+#blog-contain .author p, #blog-contain .date p {color:#aaa;}
+
+#blog-contain .text {margin-bottom: 25px;}
+#blog-contain .largeimg img {width:100%;height:auto;margin-bottom:30px;}
+#blog-contain .smallimg img {width: 40%; height: auto;  margin: 15px 2%;  float: right;}
+#blog-contain .quote {margin-top: 20px;padding: 30px 0;  border-top: 1px solid #aaa;}
+#blog-contain .quote p {margin-left:10%;color:#aaa;}
+
+#blog-contain .link {border:1px #aaa solid;}
+#blog-contain .link div[type="content"] h4 {padding: 0 2%;line-height:1.5em;}
+#blog-contain .link div[type="content"] p {padding: 0 2% 20px 2%;}
+
+#blog-contain .contain-response {position: relative;padding-bottom: 56.25%;padding-top: 35px;height: 0;overflow: hidden;}
+#blog-contain .iframe-response {position: absolute;top:0;left: 0;width: 100%;height: 100%;}
+
+#blog-contain .twitter-tweet {  padding-left: 5%;  border-left: solid 5px #aaa;}
+#blog-contain .twitter-tweet p {padding-bottom:10px;}
+#blog-contain blockquote.twitter-tweet {  display: inline-block;  font-family: "roboto Condensed", san-serif;  font-size: 12px;  font-weight: bold;  line-height: 16px;  border-color: #eee #ddd #bbb;  border-radius: 5px;  border-style: solid;  border-width: 1px;  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);  margin: 10px 5px 20px 5px;  padding: 15px 5%;  max-width: 420px;}
+#blog-contain blockquote.twitter-tweet p {  font-size: 16px;  font-weight: normal;  line-height: 20px;}
+#blog-contain blockquote.twitter-tweet a {  color: inherit;  font-weight: normal;  text-decoration: none;  outline: 0 none;}
+#blog-contain blockquote.twitter-tweet a:hover,blockquote.twitter-tweet a:focus {  text-decoration: underline;}
+
+#blog-contain .entry {border-bottom:1px solid #ddd;padding:10px 2%;width:96%;background:#fff;overflow-x:hidden;}
+#blog-contain .entry:last-of-type {border:0;}
+
+#blog-contain .entry .fa {color:#aaa;}
+#blog-contain .entry .fa-quote-left {float: left;  font-size: 2em;  padding: 0 2% 20px 0;margin-top:-15px;}
+#blog-contain .entry .fa-quote-right {padding-left:2%;font-size:.7em;}
+
+#blog-contain .entry-source {font-size:.9em;color:#97918f;padding:10px 0 0 0;float:left;}
+#blog-contain .entry-text {font-size:.8em;line-height:1.4em;}
+#blog-contain .entry-link {text-decoration:underline;color:#39709f;}
+#blog-contain .entry-hed {font-size:1em;}
+
+#blog-contain .entry-time {display:inline;font-size:.65em;color:#aaa;clear:both;width:100%;}
+#blog-contain .entry-time p {padding:0 0 5px 0;}
+
+#blog-contain .entry-limg {margin:10px 0;width: 100%;}
+
+#blog-contain .entry-simg {width:30%;max-width:75px;margin:0 2% 10px 2%;float:right;}
+
