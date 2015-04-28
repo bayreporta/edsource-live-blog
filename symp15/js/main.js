@@ -1,6 +1,7 @@
 /* MASTER FUNCTIONS
 ==================================*/
 var liveBlog = {
+	gsheet: "https://docs.google.com/spreadsheets/d/13pfsRZhfvKZmhtS0fKcSrlsjgNC8rS_eBjoouWv4ubk/pubhtml",
 	today:new Date(),
 	items:25,
 	template: {
@@ -53,8 +54,8 @@ var liveBlog = {
 		//process blog items
 		liveBlog.populateBlog(thisData, liveBlog.items, liveBlog.today, liveBlog.template, liveBlog.elements);
 	},
-	convertTime: function(t){
-		var timeToString = t.toString()
+	convertTime: function(today){
+		var timeToString = today.toString()
 		var refreshTime = timeToString.split(' ');
 		var time = refreshTime[4].split(':');
 		time[0] = parseInt(time[0])
@@ -221,15 +222,13 @@ var liveBlog = {
 
 	},
 	updateBlog:function(){
-		Tabletop.init( { key: gsheet,
+		Tabletop.init( { key: liveBlog.gsheet,
 	                 callback: liveBlog.processData,
 	                 wanted: ["main"],
 	                 debug: true } );
 	}
 }
 
-/* TABLETOP
-==================================*/
-gsheet = "https://docs.google.com/spreadsheets/d/13pfsRZhfvKZmhtS0fKcSrlsjgNC8rS_eBjoouWv4ubk/pubhtml";
+
 
 
